@@ -1,0 +1,7 @@
+{
+  "name": "E-PAL",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
