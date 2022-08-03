@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component,} from '@angular/core';
+
 
 @Component({
   selector: 'app-tab3',
@@ -8,5 +9,13 @@ import { Component } from '@angular/core';
 export class Tab3Page {
 
   constructor() {}
+
+  option = {
+    slidesPerView: 1.5,
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: 10,
+    // autoplay:true,
+  }
 
 }

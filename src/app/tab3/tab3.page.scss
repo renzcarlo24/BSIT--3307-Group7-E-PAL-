@@ -1,0 +1,43 @@
+ion-content{
+    --ion-background-color: #E1EAF9 !important;
+}
+ion-header{
+    position: absolute;
+  }
+  
+  ion-toolbar{
+    --ion-background-color: transparent;
+    --opacity:0;
+  }    
+
+ion-title {
+    font-weight: 600;
+}
+
+ion-card {
+    width: 100%;
+    height: 600px;
+    box-shadow: none;
+    border-radius: 8px;
+    
+    img {
+        object-fit: cover;
+        width: 100%;
+        transform: scale(1.1, 1.1) rotate(1deg);
+        transition: 600ms all ease-in-out;
+    }
+}
+
+.swiper-slide-active {
+    transform: scale(1, 1);
+
+    ion-card {
+        img {
+            transform: scale(2, 2);
+        }
+    }
+}
+
+.swiper-slide {
+    transition: 400ms all ease-in-out;
+}

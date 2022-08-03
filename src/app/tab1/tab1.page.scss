@@ -1,0 +1,25 @@
+ion-header{
+    position: absolute;
+}
+
+ion-toolbar{
+    --ion-background-color: transparent;
+    --opacity:0;
+}
+
+ion-content{
+    --ion-background-color: #E1EAF9 !important;
+    --background: liner-gradient(0dog, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("/assesst/header4.png") no-reapeat center center / cover
+}
+  
+    p{
+      font-size:16px;
+      line-height: 22px;
+      font-weight: 300;
+  
+      color: #8c8c8c;
+      margin: 0;
+    }
+  
+  
